@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://pjexposito/CalendarioTurnos" version="1.0.1" viewmodes="maximized">
+    <access origin="http://pjexposito.pe.hu" subdomains="true"></access>
+    <tizen:app-widget id="N62vYV2S2y.Calendariodeturnos.Widget" primary="true">
+        <tizen:widget-label>Calendario de turnos</tizen:widget-label>
+        <tizen:widget-content src="widget/Widget/index.html">
+            <tizen:widget-size preview="widget/Widget/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="N62vYV2S2y.Calendariodeturnos" package="N62vYV2S2y" required_version="2.3"/>
+    <author email="pjexposito@gmail.com">Pedro</author>
+    <content src="index.html"/>
+    <description>Aplicación para descargar turnos de trabajo.</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="Circle-icons-calendar.svg.png"/>
+    <name>Calendario de turnos</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.info"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>

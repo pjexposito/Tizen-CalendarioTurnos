@@ -1,0 +1,103 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background: #000000;
+}
+
+em {
+	      color: #ffffff;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 26px;
+	
+}
+
+table {
+      height: 70%;
+      background: #fff;
+      border-collapse: collapse;
+      color: #222;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 22px;
+      width: 75%;
+	  margin: auto;
+	  
+	  table-layout: fixed;
+	  
+    }
+
+    td {
+      border: 1px solid #ccc;
+      color: #444;
+      line-height: 10px;
+      text-align: center;
+    }
+
+    tr:first-child td {
+      color: #222;
+      font-weight: 700;
+    }
+
+#cabecera {
+    font-size: 22px;
+    color: #ffffff;
+    
+}
+#AM {
+    background-color: #bd96b5;
+}
+#AT {
+    background-color: #a7709a;
+}
+#FT {
+    background-color: #5cc3ca;
+}
+#FM {
+    background-color: #97cbc9;
+}
+#M {
+    background-color: #94cbac;
+}
+#T {
+    background-color: #01ba89;
+}
+#L {
+    background-color: #ffc983;
+}
+#D {
+    background-color: #c5c5c5;
+}
+#C {
+    background-color: #7fb3b3;
+}
+#Vacio {
+    background-color:#ffffff;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    display: table;
+        margin-top:-18px;
+    
+}
+
+#contents {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color:#000000;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#pie{
+	    vertical-align: bottom;
+	
+}
+
+#content_text {
+    font-weight: bold;
+    font-size: 5em;
+    color: #ffffff;
+}
